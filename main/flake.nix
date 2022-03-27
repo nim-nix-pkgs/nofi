@@ -11,6 +11,7 @@
   inputs.src-nofi-main.ref   = "refs/heads/main";
   inputs.src-nofi-main.owner = "ct-clmsn";
   inputs.src-nofi-main.repo  = "nofi";
+  inputs.src-nofi-main.dir   = "";
   inputs.src-nofi-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
